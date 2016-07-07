@@ -1,6 +1,6 @@
 {
-    "name": "4gekkman/4gekkman-bower-sample",
-		"description": "Blueprint for creating new bower packs",
+    "name": "4gekkman/4gekkman-bower-cssgrids",
+		"description": "CSS adaptive grids via float or position",
     "license": "4gekkman@gmail.com",
     "authors": [
         {

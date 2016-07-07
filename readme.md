@@ -1,4 +1,4 @@
-# Bower-пакет - 4gekkman-bower-sample
+# Bower-пакет - 4gekkman-bower-cssgrids
 ---
 ## Оглавление
 
@@ -12,8 +12,8 @@
 ## Ссылки <a id="link1"></a>
 ```
 
-  > Адрес репозитория bower-пакета 4gekkman-bower-sample на github
-      https://github.com/4gekkman/4gekkman-bower-sample
+  > Адрес репозитория bower-пакета 4gekkman-bower-cssgrids на github
+      https://github.com/4gekkman/4gekkman-bower-cssgrids
 
 	
 			
@@ -22,7 +22,10 @@
 ## Описание <a id="link2"></a>
 ```
 
-  • Этот bower-пакет служит шаблоном для меня при создании новых bower-пакетов.
+  • Этот bower-пакет содержит адаптивные CSS-сетки.
+  • Это требуется, поскольку сетка от bootstrap не всегда подходит.
+  • Тут есть 2 версии адаптивных сеток: на float, и на position.
+  • 
  
 ```
 ## Инструкция (для меня) по созданию новых bower-пакетов <a id="link3"></a>
