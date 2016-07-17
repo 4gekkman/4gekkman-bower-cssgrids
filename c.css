@@ -1,10 +1,10 @@
 /*//////////////////////////////
 ////                        ////
-//// 1. Общие стили шаблона ////
+//// 1. РћР±С‰РёРµ СЃС‚РёР»Рё С€Р°Р±Р»РѕРЅР° ////
 ////                        ////
 //////////////////////////////*/
 
-	/*// Общие стили для всего документа (штифт и т.д.) ////
+	/*// РћР±С‰РёРµ СЃС‚РёР»Рё РґР»СЏ РІСЃРµРіРѕ РґРѕРєСѓРјРµРЅС‚Р° (С€С‚РёС„С‚ Рё С‚.Рґ.) ////
 	//////////////////////////////////////////////////////*/
 	html, body {
 		padding: 0;
@@ -14,19 +14,19 @@
 		color: #4b4b4b;
 	}
 
-	/*// Отменить влияние margin, padding и border на ширину всех CSS-элементов ////
+	/*// РћС‚РјРµРЅРёС‚СЊ РІР»РёСЏРЅРёРµ margin, padding Рё border РЅР° С€РёСЂРёРЅСѓ РІСЃРµС… CSS-СЌР»РµРјРµРЅС‚РѕРІ ////
 	//////////////////////////////////////////////////////////////////////////////*/
 	*, *:after, *:before {
 		box-sizing: border-box;
 	}
 
-	/*// Убрать лишний отступ под изображениями ////
+	/*// РЈР±СЂР°С‚СЊ Р»РёС€РЅРёР№ РѕС‚СЃС‚СѓРї РїРѕРґ РёР·РѕР±СЂР°Р¶РµРЅРёСЏРјРё ////
 	//////////////////////////////////////////////*/
 	img {
 		vertical-align:bottom;
 	}
 
-	/*// Назначить цвет по умолчанию и стиль для всех ссылок////
+	/*// РќР°Р·РЅР°С‡РёС‚СЊ С†РІРµС‚ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ Рё СЃС‚РёР»СЊ РґР»СЏ РІСЃРµС… СЃСЃС‹Р»РѕРє////
 	//////////////////////////////////////////////////////////*/
 	a {
 		color: #247096;
@@ -38,11 +38,11 @@
 
 /*//////////////////////////////////////////////////////////
 ////                                                    ////
-//// 2. Стили адаптивной css-сетки шаблона (на float'e) ////
+//// 2. РЎС‚РёР»Рё Р°РґР°РїС‚РёРІРЅРѕР№ css-СЃРµС‚РєРё С€Р°Р±Р»РѕРЅР° (РЅР° float'e) ////
 ////                                                    ////
 //////////////////////////////////////////////////////////*/
 
-	/*// Класс row и clear fix для него ////
+	/*// РљР»Р°СЃСЃ row Рё clear fix РґР»СЏ РЅРµРіРѕ ////
 	//////////////////////////////////////*/
 	.row {}
 	.row:after {
@@ -53,14 +53,14 @@
 		clear: both;
 	}
 
-	/*// Сделать все блоки класса span inline и float ////
+	/*// РЎРґРµР»Р°С‚СЊ РІСЃРµ Р±Р»РѕРєРё РєР»Р°СЃСЃР° span inline Рё float ////
 	////////////////////////////////////////////////////*/
 	[class*='span'] {
 		float: left;
 		display: inline;
 	}
 
-	/*// Набор классов span для управления шириной сетки ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ span РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С€РёСЂРёРЅРѕР№ СЃРµС‚РєРё ////
 	///////////////////////////////////////////////////////*/
 	.span0    { width: 0%;  }
 	.span1    { width: 1%;  }		.span21   { width: 21%; } 	.span41   { width: 41%; }		.span61   { width: 61%; }		.span81   { width: 81%; }
@@ -84,7 +84,7 @@
 	.span19   { width: 19%; }		.span39   { width: 39%; } 	.span59   { width: 59%; }		.span79   { width: 79%; }		.span99   { width: 99%; }
 	.span20   { width: 20%; }		.span40   { width: 40%; } 	.span60   { width: 60%; }		.span80   { width: 80%; }		.span100  { width: 100%; }
 
-	/*// Набор классов offset для управления смещением колонок сетки ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ offset РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ СЃРјРµС‰РµРЅРёРµРј РєРѕР»РѕРЅРѕРє СЃРµС‚РєРё ////
 	///////////////////////////////////////////////////////////////////*/
 	.offset1    { margin-left: 1%;  }		.offset21   { margin-left: 21%; }		.offset41   { margin-left: 41%; }		.offset61   { margin-left: 61%; }		.offset81   { margin-left: 81%; }
 	.offset2    { margin-left: 2%;  }		.offset22   { margin-left: 22%; }		.offset42   { margin-left: 42%  }		.offset62   { margin-left: 62%; }		.offset82   { margin-left: 82%; }
@@ -107,7 +107,7 @@
 	.offset19   { margin-left: 19%; }		.offset39   { margin-left: 39%; }		.offset59   { margin-left: 59%; }		.offset79   { margin-left: 79%; }		.offset99   { margin-left: 99%; }
 	.offset20   { margin-left: 20%; }		.offset40   { margin-left: 40%; }		.offset60   { margin-left: 60%; }		.offset80   { margin-left: 80%; }		.offset100  { margin-left: 100%; }
 
-	/*// Набор классов mt для управления отступами колонок сверху ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ mt РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РѕС‚СЃС‚СѓРїР°РјРё РєРѕР»РѕРЅРѕРє СЃРІРµСЂС…Сѓ ////
 	////////////////////////////////////////////////////////////////*/
 	.mt_50 { margin-top: -50px; }
 	.mt_45 { margin-top: -45px; }
@@ -133,12 +133,12 @@
 
 /*/////////////////////////////////////////////////////////////
 ////                                                       ////
-//// 3. Стили адаптивной css-сетки шаблона (на position'e) ////
+//// 3. РЎС‚РёР»Рё Р°РґР°РїС‚РёРІРЅРѕР№ css-СЃРµС‚РєРё С€Р°Р±Р»РѕРЅР° (РЅР° position'e) ////
 ////                                                       ////
 ///////////////////////////////////////////////////////////////
-//// - Принципы работы описаны здесь: http://htmlbook.ru/samlayout/tipovye-makety/rezinovyi-trekhkolonochnyi-maket	//*/
+//// - РџСЂРёРЅС†РёРїС‹ СЂР°Р±РѕС‚С‹ РѕРїРёСЃР°РЅС‹ Р·РґРµСЃСЊ: http://htmlbook.ru/samlayout/tipovye-makety/rezinovyi-trekhkolonochnyi-maket	//*/
 
-	/*// Класс rowfix и clear fix для него ////
+	/*// РљР»Р°СЃСЃ rowfix Рё clear fix РґР»СЏ РЅРµРіРѕ ////
 	/////////////////////////////////////////*/
 	.rowfix {
 		position: relative;
@@ -151,13 +151,13 @@
 		clear: both;
 	}
 
-	/*// Сделать все блоки класса spanfix absolute ////
+	/*// РЎРґРµР»Р°С‚СЊ РІСЃРµ Р±Р»РѕРєРё РєР»Р°СЃСЃР° spanfix absolute ////
 	/////////////////////////////////////////////////*/
 	[class*='spanfix'] {
 		position: absolute;
 	}
 
-	/*// Набор классов spanfix_width для управления шириной фиксированной сетки ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ spanfix_width РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ С€РёСЂРёРЅРѕР№ С„РёРєСЃРёСЂРѕРІР°РЅРЅРѕР№ СЃРµС‚РєРё ////
 	//////////////////////////////////////////////////////////////////////////////*/
 	.spanfix_width1    { width: 1px;  }		.spanfix_width21   { width: 21px; }		.spanfix_width41   { width: 41px; }		.spanfix_width61   { width: 61px; }		.spanfix_width81   { width: 81px; }		.spanfix_width110  { width: 110px; }	.spanfix_width310  { width: 310px; }	.spanfix_width510  { width: 510px; }	.spanfix_width710  { width: 710px; }	.spanfix_width910  { width: 910px; }		.spanfix_width1110  { width: 1110px; }	 		 	
 	.spanfix_width2    { width: 2px;  }		.spanfix_width22   { width: 22px; }		.spanfix_width42   { width: 42px  }		.spanfix_width62   { width: 62px; }		.spanfix_width82   { width: 82px; }		.spanfix_width120  { width: 120px; }	.spanfix_width320  { width: 320px; }	.spanfix_width520  { width: 520px; }	.spanfix_width720  { width: 720px; }	.spanfix_width920  { width: 920px; }		.spanfix_width1120  { width: 1120px; }	 		 	
@@ -180,7 +180,7 @@
 	.spanfix_width19   { width: 19px; }		.spanfix_width39   { width: 39px; }		.spanfix_width59   { width: 59px; }		.spanfix_width79   { width: 79px; }		.spanfix_width99   { width: 99px; }		.spanfix_width290  { width: 290px; }	.spanfix_width490  { width: 490px; }	.spanfix_width690  { width: 690px; }	.spanfix_width890  { width: 890px; }	.spanfix_width1090  { width: 1090px; }	.spanfix_width1290  { width: 1290px; }	 	
 	.spanfix_width20   { width: 20px; }		.spanfix_width40   { width: 40px; }		.spanfix_width60   { width: 60px; }		.spanfix_width80   { width: 80px; }		.spanfix_width100  { width: 100px; }	.spanfix_width300  { width: 300px; }	.spanfix_width500  { width: 500px; }	.spanfix_width700  { width: 700px; }	.spanfix_width900  { width: 900px; }	.spanfix_width1100  { width: 1100px; }	.spanfix_width1300  { width: 1300px; }		
 
-	/*// Набор классов spanfix_left для управления отступом слева ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ spanfix_left РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РѕС‚СЃС‚СѓРїРѕРј СЃР»РµРІР° ////
 	////////////////////////////////////////////////////////////////*/
 	.spanfix_left0    { left: 0;  }
 	.spanfix_left1    { left: 1px;  }		.spanfix_left21   { left: 21px; }		.spanfix_left41   { left: 41px; }		.spanfix_left61   { left: 61px; }		.spanfix_left81   { left: 81px; }		.spanfix_left110  { left: 110px; }	.spanfix_left310  { left: 310px; }	.spanfix_left510  { left: 510px; }	.spanfix_left710  { left: 710px; }	.spanfix_left910  { left: 910px; }		.spanfix_left1110  { left: 1110px; }
@@ -204,7 +204,7 @@
 	.spanfix_left19   { left: 19px; }		.spanfix_left39   { left: 39px; }		.spanfix_left59   { left: 59px; }		.spanfix_left79   { left: 79px; }		.spanfix_left99   { left: 99px; }		.spanfix_left290  { left: 290px; }	.spanfix_left490  { left: 490px; }	.spanfix_left690  { left: 690px; }	.spanfix_left890  { left: 890px; }	.spanfix_left1090  { left: 1090px; }	.spanfix_left1290  { left: 1290px; }	 	
 	.spanfix_left20   { left: 20px; }		.spanfix_left40   { left: 40px; }		.spanfix_left60   { left: 60px; }		.spanfix_left80   { left: 80px; }		.spanfix_left100  { left: 100px; }	.spanfix_left300  { left: 300px; }	.spanfix_left500  { left: 500px; }	.spanfix_left700  { left: 700px; }	.spanfix_left900  { left: 900px; }	.spanfix_left1100  { left: 1100px; }	.spanfix_left1300  { left: 1300px; }		
 
-	/*// Набор классов spanfix_right для управления отступом справа ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ spanfix_right РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РѕС‚СЃС‚СѓРїРѕРј СЃРїСЂР°РІР° ////
 	//////////////////////////////////////////////////////////////////*/
 	.spanfix_right0    { right: 0;  }
 	.spanfix_right1    { right: 1px;  }		.spanfix_right21   { right: 21px; }		.spanfix_right41   { right: 41px; }		.spanfix_right61   { right: 61px; }		.spanfix_right81   { right: 81px; }		.spanfix_right110  { right: 110px; }	.spanfix_right310  { right: 310px; }	.spanfix_right510  { right: 510px; }	.spanfix_right710  { right: 710px; }	.spanfix_right910  { right: 910px; }		.spanfix_right1110  { right: 1110px; }
@@ -228,7 +228,7 @@
 	.spanfix_right19   { right: 19px; }		.spanfix_right39   { right: 39px; }		.spanfix_right59   { right: 59px; }		.spanfix_right79   { right: 79px; }		.spanfix_right99   { right: 99px; }		.spanfix_right290  { right: 290px; }	.spanfix_right490  { right: 490px; }	.spanfix_right690  { right: 690px; }	.spanfix_right890  { right: 890px; }	.spanfix_right1090  { right: 1090px; }	.spanfix_right1290  { right: 1290px; }	 	
 	.spanfix_right20   { right: 20px; }		.spanfix_right40   { right: 40px; }		.spanfix_right60   { right: 60px; }		.spanfix_right80   { right: 80px; }		.spanfix_right100  { right: 100px; }	.spanfix_right300  { right: 300px; }	.spanfix_right500  { right: 500px; }	.spanfix_right700  { right: 700px; }	.spanfix_right900  { right: 900px; }	.spanfix_right1100  { right: 1100px; }	.spanfix_right1300  { right: 1300px; }		
 
-	/*// Набор классов spanfix_right для управления отступом сверху ////
+	/*// РќР°Р±РѕСЂ РєР»Р°СЃСЃРѕРІ spanfix_right РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РѕС‚СЃС‚СѓРїРѕРј СЃРІРµСЂС…Сѓ ////
 	//////////////////////////////////////////////////////////////////*/																																																																																																																																																																																																		
 	.spanfix_top0    { top: 0;  }
 	.spanfix_top1    { top: 1px;  }		.spanfix_top21   { top: 21px; }		.spanfix_top41   { top: 41px; }		.spanfix_top61   { top: 61px; }		.spanfix_top81   { top: 81px; }		.spanfix_top110  { top: 110px; }	.spanfix_top310  { top: 310px; }	.spanfix_top510  { top: 510px; }	.spanfix_top710  { top: 710px; }	.spanfix_top910  { top: 910px; }		.spanfix_top1110  { top: 1110px; }
